@@ -13,7 +13,7 @@ const getUniqElement = (arr) => {
      if (e[1]) array.push(e[0]);
   }
  
-  return array;
+  return array.pop();
 
 }
 
