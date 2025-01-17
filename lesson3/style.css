@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+  background: grey;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  width: 15%;
+  margin: 10px 0;
+  padding: 20px;
+  background: white;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin: 10px 0;
+  padding: 20px;
+  background: white;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin: 10px 0;
+  margin-top: auto;
+  padding: 20px;
+  background: white;
+}
+
+.body{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.content, .sameContent {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 180px;
+  padding: 20px;
+  background: white;
+}
+
+.sameCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+  height: 90px;
+  padding: 20px;
+  background: white;
+}
